@@ -1,0 +1,27 @@
+{
+  "name": "projeto-pizzaria-js",
+  "version": "1.0.0",
+  "description": "Projeto Web app Pizzaria",
+  "private": true,
+  "scripts": {
+    "build": "webpack --progress --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "repository": "https://github.com/daniel-silva-dxp/projeto-pizzaria-js.git",
+  "author": "Daniel Silva <dani3l.dxp@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.3.3",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "browserslist": "> 0.25%, not dead, not ie 11"
+}
